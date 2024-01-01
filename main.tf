@@ -47,8 +47,8 @@ EOF
 }
 
 resource "aws_sfn_state_machine" "lambda_step_function" {
-  name     = "LambdaStepFunction"
-  role_arn = aws_iam_role.step_function_execution_role.arn
+  name       = "LambdaStepFunction"
+  role_arn   = aws_iam_role.step_function_execution_role.arn
   definition = <<EOF
 {
   "Comment": "A simple AWS Step Functions state machine that invokes Lambda functions",
