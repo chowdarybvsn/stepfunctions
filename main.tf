@@ -1,6 +1,6 @@
 
 resource "aws_lambda_function" "generate_random_number" {
-  filename      = "lambda-function-1.zip" # Specify the path to your deployment package (ZIP file)
+  filename      = "lambda-function-1/lambda-function-1.zip" # Specify the path to your deployment package (ZIP file)
   function_name = "generateRandomNumber"
   role          = aws_iam_role.lambda_execution_role.arn
   handler       = "handler.generateRandomNumber"
@@ -14,7 +14,7 @@ resource "aws_lambda_function" "generate_random_number" {
 }
 
 resource "aws_lambda_function" "check_even_odd" {
-  filename      = "lambda-function-2.zip" # Specify the path to your deployment package (ZIP file)
+  filename      = "lambda-function-2/lambda-function-2.zip" # Specify the path to your deployment package (ZIP file)
   function_name = "checkEvenOdd"
   role          = aws_iam_role.lambda_execution_role.arn
   handler       = "handler.checkEvenOdd"
