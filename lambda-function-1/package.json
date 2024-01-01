@@ -1,0 +1,11 @@
+{
+    "name": "lambda-function-1",
+    "version": "1.0.0",
+    "description": "Lambda function to generate a random number",
+    "main": "handler.js",
+    "dependencies": {},
+    "scripts": {},
+    "author": "",
+    "license": "ISC"
+  }
+  

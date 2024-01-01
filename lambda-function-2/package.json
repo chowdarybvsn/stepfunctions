@@ -1,0 +1,10 @@
+{
+  "name": "check-even-odd-function",
+  "version": "1.0.0",
+  "description": "Lambda function to check whether a number is even or odd",
+  "main": "handler.js",
+  "dependencies": {},
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
